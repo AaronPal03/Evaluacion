@@ -1,0 +1,137 @@
+body {
+    height: 500px;
+    background-image: url("/Imagenes/back2.png");
+    background-repeat:no-repeat;
+    background-position-x: center;
+    background-position-y: 200px;
+    background-size: 2000px;
+  }
+
+.header{
+    min-height: 50px;
+    margin: 0;
+    background: linear-gradient(rgb(89, 89, 89), #212529);
+
+}
+
+.carousel-inner{
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+    column-count: 2;
+    column-gap: 3em;
+    column-rule: 1px solid #bbb;
+    column-width: 140px;
+    column-span: all;
+    margin-top: 5px;
+}
+
+.p{
+    margin-bottom: 1px;
+}
+
+.cajon1{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.cajon2{
+    width: 85%;
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+.footer {
+    height: 30vh;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.redes {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;    
+}
+
+.icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin: 20px;
+    border-radius: 50%;
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    background-color: #e60073;
+    box-shadow:  0 0 20px #e60073 ;
+}
+
+.icon:hover:nth-child(2) {
+    background-color: #1877f2;
+    box-shadow:  0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+    background-color: #25d366;
+    box-shadow: 0 0 20px #25d366 ;
+}
+
+.icon:hover:nth-child(4) {
+    background-color: #1da1f2;
+    box-shadow:  0 0 20px #1da1f2 ;
+}
+
+.icon:hover:nth-child(5) {
+    background-color: #e00000;
+    box-shadow:  0 0 20px #e00000 ;
+}
+
+.icon:hover:nth-child(6) {
+    background-color: #ff8383;
+    box-shadow:  0 0 20px #ff8383 ;
+}
+
+.icon i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.7rem;
+}
+
+svg circle {
+    stroke-dasharray: 150;
+    transition: all .8s ease-in-out;
+}
+
+.icon:hover circle {
+    stroke-dasharray: 220;
+}
+
+.carousel-control-prev{
+    text-align: center;
+}
+.carousel-control-next{
+    text-align: center;
+}
+
+.contacto{
+    color: #000;
+    padding: 10px;
+    height: 100%;
+    min-height: 100%;
+}
